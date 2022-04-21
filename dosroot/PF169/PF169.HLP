@@ -1,0 +1,2348 @@
+.INDEX ALLOWOFF.HLP
+
+Allow OFF
+
+
+
+  This option allows the pager to be turned off. If the option is NOT
+
+selected, the pager can not be turned off without removing the battery.
+
+
+
+.INDEX ALRTDURA.HLP
+
+Alert Duration
+
+
+
+  The pager can be configured to have long (12 second) or short (2 second)
+
+non-priority personal message alerts.
+
+  A low battery condition will override this setting.  During a low battery
+
+condition if 12 second alert duration is selected, the alert will last 2
+
+seconds.  If 2 seconds is selected, an alert duration of 1 second will 
+
+result.
+
+  If Manual Alert Reset is selected to be YES, low battery will override
+
+the manual alert reset and result in a 2 second alert.
+
+  If Manual Alert Reset is selected to be YES, the alert duration does not
+
+apply to individual, group and priority page alerts.
+
+ 
+
+.INDEX ALRTFREQ.HLP
+
+Alert Frequency
+
+
+
+  The available selections are 3.84 kHz, 3.2 kHz, 3.0 kHz, 2.5 kHz, 1.37 kHz, 
+
+and 1.24 kHz.
+
+The above selections only applies to standard alerts.
+
+
+
+.INDEX ALRTMD.HLP
+
+Enable Mail Drop Alert
+
+
+
+  If selected, all mail drop messages will always alert with a chirp alert.
+
+If this option is NO, mail drop messages will never alert.
+
+  When the pager is in silent mode, a mail drop alert will be a short
+
+vibrate.
+
+  When mail drop alert is enabled, the option shall be available via the
+
+the function menu; however, all individual mail drop addresses will be 
+
+initially set to chirp.  The user shall be able to manually toggle the 
+
+maildrop alert off for any specified address via the pager's function menu.
+
+
+
+.INDEX ALRTMODE.HLP
+
+User Changeable Alert Mode
+
+
+
+  If this option is enabled, the alert mode can be toggled between audio 
+
+and silent via the pager's function menu. If this option is disabled, 
+
+the pager will always be in audible mode.
+
+
+
+.INDEX ALRTONOF.HLP
+
+Auto On/Off Alert
+
+
+
+  If this option is selected, the pager will chirp when the pager is turned
+
+on or off as a result of Auto On/Off. If the pager is in vibrate mode, it
+
+will emit a 2 second vibrate. If this option is not selected, the pager
+
+will power off silently and power on as if the user manually turned on the
+
+pager.
+
+
+
+.INDEX ALRTPGM.HLP
+
+Programmable Pleasing Alert
+
+
+
+  If CUSTOM is selected, a special menu will allow you to set your own
+
+alert cadences.
+
+  There are 16 bytes of pleasing alert notes.  Each note describes 1/16th
+
+of a second tone.  The available Frequency (Hz) selections are:
+
+
+OFF, 345, 480, 686, 800, 900, 960, 1125, 1200, 1300, 1371, 1551, 1600,
+
+1920, 2400, 2500, 2743, 2800, 2900, 2997, 3095, 3200, 3840, 4800, 6400.
+
+
+  Press ALT-A, to play all 16 notes from this menu. 
+
+
+
+.INDEX ALRTRMIV.HLP
+
+Reminder Alert Interval
+
+
+
+  If a reminder alert interval time is selected, the pager will begin
+
+a timer when a personal message is received. As long as the pager
+
+contains an unread personal message, the pager will emit a chirp
+
+(or vibrate) every reminder alert time interval.
+
+
+
+.INDEX ALRTRMTO.HLP
+
+Reminder Alert Timeout
+
+
+
+  This option specifies the period of time during which the pager shall
+
+emit reminder alerts. The time period begins with a newly arrived
+
+message, and is reset every time a new message is received. As long as
+
+the pager contains an unread personal message, the pager will emit a
+
+reminder alert every reminder alert time until the time period expires.
+
+Once the time period expires, the pager will not emit any more reminder
+
+alerts until a new message arrives (triggering the restart of the
+
+time-out period).
+
+
+
+.INDEX ALRTSELT.HLP
+
+User Selectable Alerts
+
+
+
+  If this option is enabled, the pager allows the user to select either
+
+standard alerts, one of the seven pleasing alerts, chirp alerts, or no
+
+alerts via a special "set alerts screen" menu. This menu can be accessed
+
+through the pager's function menu.
+
+  The standard alerts setting shall apply to all alerts.  The pleasing 
+
+alert settings shall apply only to personal message alerts and the 
+
+power-up alert.  The chirp alerts setting shall apply to personal 
+
+messages only.  The no alerts setting shall apply to all incoming non-
+
+priority message alerts and their reminder alerts.
+
+  
+
+.INDEX ARCHIVEP.HLP
+
+Archive Path
+
+
+
+  This is the full pathname of the directory in which the Product Family 169
+
+will store the pager configuration files. Ordinarily this parameter is
+
+initialized during execution of the SETUP program and should not need to
+
+be changed.
+
+
+
+.INDEX ASCIIDEF.HLP
+
+ASCII Default
+
+
+
+  This option allows the pager to be programmed to interpret the default
+
+character type.
+
+
+  If this option is set to No, the pager will decode the first printable
+
+character it receives as Thai. If the option is set to Yes, the first
+
+printable character will be decoded as ASCII (English).
+
+
+
+.INDEX AUTOALON.HLP
+
+Auto Alarm Turn On
+
+
+
+  If this option is enabled and the user has set an alarm, the
+
+pager will automatically turn on and give an alarm alert rather
+
+than the power-up alert if it is off when the alarm expires.
+
+
+
+.INDEX AUTOLIGHT.HLP
+
+Auto Backlight On
+
+
+
+  If this option is selected, the pager shall provide an automatic back-light
+
+feature which senses if the pager is in a 'dark' environment.  If in a dark 
+
+environment and a button is pressed, the back-light will automatically be
+
+turned on. 
+
+
+
+.INDEX AUTONOFF.HLP
+
+Auto On/Off
+
+
+
+  This option allows the user to select an automatic turn-on time and an
+
+automatic turn-off time. These times will cause the pager to turn on and
+
+off automatically at the user-specified times. If the user tries to enable
+
+auto on/off with the on time equal to the off time, the pager will
+
+automatically disable auto on/off.
+
+
+
+.INDEX AUTOSCLT.HLP
+
+Fast Scroll Time
+
+
+
+  While reading a message, the display will advance forward one screen
+
+every "fast scroll time".
+
+
+  When the pager is advancing line by line, the fast scroll time shall be 
+
+cut by 1/4.
+
+
+
+.INDEX BADDATAI.HLP
+
+Errored Data Indication
+
+
+
+  When this option is selected, the error character will alternately be
+
+displayed with the "best guess" of the errored data. When this option
+
+is not selected, the errored data will be displayed without any indication
+
+that it is errored data.
+
+
+
+.INDEX BATTALRT.HLP
+
+Low Battery Alert
+
+
+
+  With this option selected, a selected 12 second alert duration is reduced
+
+to a 2 second alert, and a selected 2 second alert duration is reduced to a 
+
+1 second alert when a low battery condition is detected.
+
+
+
+.INDEX BATTGAUGE.HLP
+
+Enable Battery Gauge
+
+
+
+  When this option selected, the battery gauge indicator will always be 
+
+shown on line 3 of the display.
+
+
+
+.INDEX BATTLEVEL.HLP
+
+Battery Gauge Level
+
+
+
+ The pager has 5 levels of battery gauge selections: 100%, 75%, 50%, 25%, 0%.
+
+
+Example:   
+
+Want High (100% battery) if B+ > 1.34v
+
+     Med  (75% battery) else if B+ > 1.29v
+
+     Low  (50% battery) else if B+ > 1.24v
+
+     (25% battery) else if NO LOW BATTERY
+
+     (0% battery) else LOW BATTERY
+
+
+The pager shall be in low battery state whenever the battery capacity reaches
+
+less then 20% or before any loss of pager functionality.  Pager will display 
+
+battery "gas gauge" or low battery indicator when pager in low battery state.  
+
+The low battery state will be exited after any soft reset.
+
+
+
+.INDEX BITRATES.HLP
+
+Bit Rate/Baud Rate
+
+
+
+  This is the baud rate or bits per second at which the communications
+
+port will be communicating. Valid speeds are 300, 600, 1200, 2400, 4800,
+
+9600 and 19200.
+
+
+  If communicating through a modem, you must set this value to match the
+
+operating speed of the modem. Check the instruction manual which was
+
+supplied with your modem for bit rate settings.
+
+
+  NOTE : The Baud Rate, Parity, Data Bits and Stop Bits are used by the
+
+	 serial communication port and printer port if it is configured
+
+	 to use a serial port. The parameters used to communicate to
+
+	 the pager is set to be 4800, None parity, 8 data bits and 1 stop
+
+	 bit. (4800N81)
+
+
+	 You need to reset these parameters if you have set them to other
+
+	 values for printer communication.
+
+
+
+.INDEX CODE.HLP
+
+Code
+
+
+
+  The Code of your pager is actually the address of the pager. Depending
+
+on the type of pager, it may have the capability of having more than one
+
+address. This address is an identifying code.  When a pager recognizes
+
+its address, the pager knows that the transmitted message is intended
+
+for that pager.
+
+
+For POCSAG pagers the address is 7 digits long.  Valid digits are 0 - 9.
+
+
+The frame is calculated as follows: Divide the code by 8. The remainder
+
+is the frame number. There is no frame restriction on the pagers;
+
+however, selecting codes in different frames can reduce the pager's
+
+battery life.
+
+
+
+.INDEX CODEFMT.HLP
+
+Coding Format
+
+
+
+  The coding format is the signalling format which is used to communicate
+
+with the pager. There are three baud rates you can select from: POCSAG 512,
+
+POCSAG 1200, and POCSAG 2400. The baud rate selected must match the baud
+
+rate of the transmitting system.
+
+Note : POCSAG 2400 baud has been disabled for some version of pagers
+       due to a defect in firmware code.
+
+
+
+.INDEX CODETYPE.HLP
+
+Code Type
+
+
+
+  The pager's code can be assigned as Individual, Group Call or Mail Drop
+
+(Data Service).
+
+
+  Pagers equipped with the same Group Call code can all receive the same
+
+message at the same time.
+
+
+  Selecting Data Service on a code assigns the 4 corresponding addresses
+
+their own memory. Data sent to these addresses will be overwritten by new
+
+data sent to the same address. A user can subscribe to Information Services
+
+and receive continual updates.
+
+
+
+.INDEX COLOR.HLP
+
+COLOR Setup
+
+
+
+  You can change the display attribute of different displays. The outline
+
+of the screen, the normal text, help text, the background and certain pop
+
+up backgrounds. Toggle through all the choices and make a suitable
+
+combination.
+
+
+
+.INDEX COMPORT.HLP
+
+Communications Port
+
+
+
+  This program is designed to communicate with a paging terminal. Select
+
+the communication port to which the paging terminal is connected, either
+
+via direct connect or through a modem.
+
+
+
+.INDEX CUSTPMPT.HLP
+
+Prompts/More Prompts
+
+
+
+  This is where you enter customized prompts for display. The FUNCTION
+
+MENU DISPLAY option must be set either 'Both' or 'Prompts' in order for
+
+prompts to be displayed.  If you would like to see the Source 1-16
+
+prompts, the SHOW SOURCE option must be YES in order for source prompts
+
+to be displayed.
+
+
+International Prompts : The pager provides the user with prompts to
+
+  indicate pager status, and various pager functions. These prompts
+
+  are programmed in the code plug and can be customized by the user
+
+  or programmed in a specific language. Other than English defaults,
+
+  the user can enter his or her own prompts.
+
+  Following is the list of the available languages:  English, German,
+
+  French, Swedish, Danish, Norwegian, Portuguese, Spanish, Italian,
+
+  Finnish, Dutch.
+
+
+  For Thai pager, only the following Thai language prompts shall be
+
+supported:  DELETE, DELETE ALL, TURN OFF, DUPLICATE, NOTEBOOK, PAGER
+
+DISABLED, POWER UP, ON, OFF.
+
+
+International Character Set : The pager supports international character
+
+  set remapping on alphanumeric function types. When one of the remap
+
+  characters is received on an alphanumeric message, it will be remapped
+
+  to the corresponding international character.
+
+
+  Following is the list of special characters:  US, Swiss, German,
+
+  French, Italian, Spanish, Portuguese, Swedish, Norwegian, Danish,
+
+  UK.
+
+
+Powerup Prompt : This option allows you to customize your Pager power up
+
+  prompt.
+
+
+Disable Prompt : This option allows you to customize a Pager disable
+
+  prompt.
+
+
+Source Prompts: You can customize any or all of 16 sources' prompts. The
+
+  prompts entered here will be displayed at the end of the message at the
+
+  associated source.
+
+
+All Others: You also can customize all sorts of prompts as Set Alert,
+
+  Set Audio, Set Silent,...
+
+
+
+.INDEX DATABITS.HLP
+
+Data Bits
+
+
+
+  The number of data bits per byte. Valid values are 7 and 8.
+
+
+  NOTE : The Baud Rate, Parity, Data Bits and Stop Bits are used by the
+
+	 serial communication port and printer port if it is configured
+
+	 to use a serial port. The parameters used to communicate to
+
+	 the pager is set to be 4800, None parity, 8 data bits and 1 stop
+
+	 bit. (4800N81)
+
+
+
+.INDEX DEAFPAGER.HLP
+
+Operation Mode
+
+
+
+  When this option is selected Deaf, the pager shall never perform an
+
+audible alert.  The option to change the speaker mode shall not appear on
+
+the function menu.  All alerts, including priority alerts shall be silent.
+
+
+
+.INDEX DELSLOT.HLP
+
+Delete Slot Number
+
+
+
+  When this option is selected the slot number and the colon will not
+
+  appear at the beginning of a message when it is being read. Thus the
+
+  first line of a message will be formatted for 20 (instead of 17)
+
+  characters.
+
+
+
+.INDEX DNLDPSWD.HLP
+
+Download Password
+
+
+
+  Depending on the level of security selected, the download password may
+
+or may not be required for download.
+
+
+  If you are concerned about someone tampering with your pagers and
+
+you have activated the pager security feature (Download Security Level
+
+= MAXIMUM), you must also assign a password to this pager.
+
+
+  For security purposes you may assign a unique password to each of your
+
+pagers. Activation of this password will require that this password be
+
+entered whenever you want to read or program this pager. This restricts
+
+reading and programming of this pager to the person who knows this pager's
+
+password.
+
+
+  For optimum pager security, each pager should be assigned its
+
+own unique password. This minimizes the possibility of someone tampering
+
+with your pagers. Assigning a common password to all your pagers should be
+
+discouraged since someone who wants to tamper with your pagers would only
+
+have to know a single password to do so.
+
+
+  The Pager Password is 10 characters long and may consist of any
+
+combination of A-Z, 0-9 and space.
+
+
+
+.INDEX DUPLICAT.HLP
+
+Duplication
+
+
+
+  If the duplicate message option is selected, a duplication check will
+
+be performed on all personal messages with the same function type as the
+
+new message on a character by character basis. Errored characters will
+
+be ignored during the check, that is, they will be treated like wild
+
+cards. If all non-errored characters in both messages match, then
+
+a duplicate message has been detected. The message with the least amount
+
+of errors will be kept and the other message will be discarded.  If both
+
+messages contain the same number of errors, the new message will be
+
+discarded and the old message will be flagged as a duplicate.  When a
+
+message is found to be a "duplicate", it will be marked as unread and 
+
+when read, the duplicate message prompt will appear before the first line
+
+of the message.
+
+
+  Duplication will not be performed on mail drop messages.
+
+
+
+.INDEX EDABLEPG.HLP
+
+Enable/Disable a Pager
+
+
+
+  Enable a pager will return a pager to operable service. After a pager
+
+being enabled, it resumes normal operation and can receive and display
+
+pages.
+
+
+  Disable a pager removes a pager from operable service. While disabled,
+
+a pager will still receive but won't display pages.
+
+
+
+.INDEX EOTMSG.HLP
+
+End of Message Character 
+
+
+
+  Since Advisor doesn't care how the message is ended and no 
+  
+truncated char is displayed, they have bent over backwords to 
+
+support the inflexible NEC pager and assume Motorola pagers can
+
+handle it.  Now, with the truncated message indicator, they would
+
+like to avoid seeing the msg truncated when this 'bad' ETB char is
+
+sent.
+
+
+The valid selections for End of Message Character: $00-$0F.
+
+
+
+.INDEX FCNTMENU.HLP
+
+Function Menu Display
+
+
+
+  The pager allows the user to perform various functions on the pager and
+
+on messages. Some of these functions have a corresponding pager option
+
+that dictates whether or not the function is available to the user via the
+
+pager's "function menu". If no options are enabled, pressing the "MODE"
+
+button on the pager will do nothing. 
+
+  The function menu consists of a series of icons, prompts, or a 
+
+combination of the two. The default is to show the icons with the 
+
+corresponding prompts above the icons; however, when ideographic prompts 
+
+are desired, the pager only displays either the prompts OR the icons.
+
+NOTE:  When Thai prompt is selected, only the 'icons' selection may be
+
+chosen.
+
+
+
+.INDEX FREQ.HLP
+
+Frequency
+
+
+
+   The frequency is used to determine the bus speed of the receiver if 
+
+the receiver type is Crystal.
+
+
+
+.INDEX FUNCTION.HLP
+
+Functions
+
+
+
+  This field allows you to select which type of function will be associated
+
+with each address. The different functions are as follows:
+
+
+	   T = Tone          (Tone only message which contains no data)
+
+	   N = Numeric       (Numeric message of up to 40 characters)
+
+	   A = Alphanumeric  (Alphanumeric message)
+
+	   I = Ideographic
+
+	   X = Inactive
+
+
+
+.INDEX HCOROTA.HLP
+
+.INDEX HCRETRIV.HLP
+
+RETRIEVE a stored pager configuration
+
+
+
+  The Retrieve a stored pager screen allows you to enter the file name
+
+of a pager configuration which you have previously saved to disk. A list
+
+of all the file names in the archive directory will be displayed. You can
+
+either enter the file name directly from the file name entry port and press
+
+ENTER key to read the file or you can press TAB key to go to the file name
+
+area then use cursor keys to navigate around. When the cursor is on the
+
+desired file, press ENTER key to bring the file name to the file name entry
+
+port and press ENTER key again.
+
+
+  You also can press F3 key to view the comment of the file.
+
+
+
+.INDEX HISTORY.HLP
+
+Maildrop History
+
+
+
+  Maildrop History is only be available with a 32K RAM pager.  This field
+
+determines which maildrop addresses have history enabled.  History does
+
+not apply to Super-Maildrop addresses.  The pager shall keep up to 4
+
+history files for each Maildrop History source.
+
+  The history files are never be considered UN-READ.  Once a file has
+
+been moved to the history area, the pager shall be free to delete it as
+
+needed.
+
+
+
+.INDEX INDMSGALM.HLP
+
+Individual Message Alarm
+
+
+
+   User can attach an alarm to a particular personal message.  Up to 5 
+
+message alarms on 5 different messages can be set.  This option does not 
+
+apply to mail drop messages.  
+
+
+
+.INDEX INTLDATE.HLP
+
+International Date
+
+
+
+  When this option is selected, the date will be displayed in international
+
+(day-month-year) format.
+
+
+
+.INDEX INVERSON.HLP
+
+Data Inversion
+
+
+
+  The receiver used in the pager dictates how to set this option.
+
+Certain frequencies require data to be inverted. If programmed incorrectly,
+
+the pager will not receive any data. Please refer to Motorola Service Manual
+
+for frequencies and their corresponding Data Inversion setting.
+
+
+
+.INDEX INVNCTRL.HLP
+
+Inventory Control Number
+
+
+
+  The Inventory Control Number is an identification number which you assign
+
+to the pager. This number is stored in the pager. Unlike the Serial Number
+
+of the pager, this number can be changed as per your needs. It is also
+
+important to note that the data entered in this field is used to create
+
+the filename of the archive file for this pager. Therefore, it is important
+
+to enter a unique Inventory Control Number for each pager if you are saving
+
+each pager configuration to disk.
+
+
+  If you find yourself programming many of your pagers with similar or
+
+almost identical configurations, you may want to create template files
+
+and save them on disk. By entering a descriptive name in the Inventory
+
+Control Number data area, you can save these template files with names
+
+that are meaningful to you. When it comes time for you to program one of
+
+those type of pagers, you can simply recall that template file and change
+
+only those codes or options you need. At that point you should also
+
+change the Inventory Control Number to reflect the proper tracking number
+
+which you wish to assign to the pager. You should then save that file as
+
+one of your archive files.
+
+
+
+.INDEX KEEPMEM.HLP
+
+Memory Retention
+
+
+
+  This option is also called Non-Volatile Memory. If it is selected, the
+
+pager will retain all message information when the pager is turned off and
+
+turned back on.
+
+
+
+.INDEX KEYCHIRP.HLP
+
+Key Click
+
+
+
+  If this option is selected, a key click will occur when a key is pressed.
+
+The sound will be a click caused from turning on the transducer for a very
+
+short time approximately 50usec - 300usec.
+
+
+  If disable all alert is selected, the key click will be disabled.
+
+
+  The click will occur on all key actions including repeat key events, and
+
+an extended mode key press which turns on the backlight.  Therefore, if a 
+
+mode key is pressed and held for over 1 sec, one click results when the mode 
+
+key changes the state of the backlight.
+
+ 
+
+.INDEX LCDCONTROL.HLP
+
+Display Contrast
+
+
+
+  This option allows adjustment of the LCD contrast value from 0 to 15.
+
+The default is 9.
+
+
+
+.INDEX MAIN.HLP
+
+In general the screen is divided into the following three sections:
+
+
+
+  ========================================================================
+
+  = MOTOROLA Pager Programming Software  <Instruction Msg. Line 1>       =
+
+  = PRODUCT Family 169                   <Instruction Msg. Line 2>       =
+
+  =                                      <Instruction Msg. Line 3>       =
+
+  = <Menu Pathname>                                                      =
+
+  ========================================================================
+
+  =                                                                      =
+
+  =                 < Screen Data Entry / Display Area >                 =
+
+  =                                                                      =
+
+  =                                                                      =
+
+  ========================================================================
+
+     F1     F2     F3     F4     F5      F6      F7     F8     F9    F10
+
+     HELP                <brief function key operation>              EXIT
+
+
+
+F2 - SERVICE
+
+       This section allows you to test the basic functionality of the pager.
+
+
+F3 - READ a pager configuration
+
+       This section allows you to read a pager configuration file.
+
+
+F5 - PROGRAM a single pager
+
+       This section allows you to select all the pager features and program a
+
+       pager in the PROGRAM page after you have done all the selection. 
+
+
+F6 - PROGRAM sequential pagers
+
+       This section allows you to automatically program pagers sequentially. 
+
+       There is a Sequential Code Increment field on the codepage menu.  
+
+       The field is scrolled through from 1 to 8 by pressing ALT-H key.  This
+
+       number is used as the amount to increment for the next Individual
+
+       Code after the current one is programmed.  The code and the Inventory
+
+       Control Number will not be incremented if no PROGRAM function is   
+
+       performed. If there are only group and maildrop addresses exist, then 
+
+       only the Inventory Control Number will be incremented.  The Inventory
+
+       Control Number is always incremented by one.
+
+       The Serial Number field is not shown on the codepage menu. 
+
+       The Hot key Function F2 is assigned to PROGRAM the pager on all 
+
+       feature menus under Sequential Programming.  The key remains the same 
+
+       as Function F10 to go back to Main menu under normal programming.
+  
+
+F8 - RETRIEVE a stored pager configuration from disk
+
+       You can read in a previously saved pager configuration file
+
+       from the archive directory as your base line for the target
+
+       pager.
+
+
+F9 - SETUP computer configuration
+
+       This section allows you to setup your computer configuration or
+
+       display color if your computer is equipped with a color monitor.
+
+       You can select the disk drive and path name in which your
+
+       configuration files are archived, the communications port that
+
+       is used to communicate to the Radio Interface Box or to a printer.
+
+
+
+MENU SELECTIONS INFORMATION
+
+
+To select a task from a menu, press the desired function key, or move the
+
+highlight bar to the desired option using the UP and DOWN keys, then press
+
+ENTER.
+
+Press Tab  -  Move to next/previous area
+
+Press HOME -  Move to first data area
+
+Press END  -  Move to last valid data area
+
+Press PgDn -  Advance to next menu
+
+Press PgUp -  Move to previous menu
+
+Press <--  -  Move cursor to left
+
+Press -->  -  Move cursor to right
+
+Press  Space Bar to scroll forward choices within each field
+
+Press ALT-B to scroll backward choices within each field
+
+Press ALT-H to increase the Sequential Code when program pagers sequentially
+
+Press ALT-A to play all the pleasing alert notes in the pleasing alert menu
+
+Press ALT-P to print the online manual to the printer
+
+
+
+.INDEX MANDEL.HLP
+
+Manual Delete
+
+
+
+  When this option is selected, the user may manually delete one message at
+
+a time. Locked messages and messages with alarms may not be deleted.  A  
+
+notebook may not be deleted as a whole using this option, but individual
+
+messages within a notebook may be deleted.  Delete cannot be performed on
+
+protected messages.
+
+
+
+.INDEX MANRESET.HLP
+
+Manual Alert Reset
+
+
+
+  When this option is selected and the pager is in audible mode, the user
+
+must manually turn off all individual, group, and priority page alerts by 
+
+pressing any button on the pager. The pager will not automatically terminate
+
+the alert.
+
+  This option ONLY applies to the alerts mentioned above when the silent
+
+mode is not selected (does not apply to maildrop, regular or message alarms,
+
+reminder alerts, among others).
+
+
+
+.INDEX MEMCLEAN.HLP
+
+Delete All/Memory Clean Up
+
+
+
+  Memory clean up (delete all) means that all read, unprotected personal 
+
+messages will be deleted and shifted left to fill in any gaps. All read
+
+mail drop messages and all mail drop history files will be deleted.  
+
+  Memory clean up will NOT delete the following messages: unread messages,
+
+messages with alarms set, messages with unacknowledged expired alarms
+
+(they haven't been read since the alarm expired), locked messages and the
+
+notebooks.
+
+
+
+.INDEX MSGCNTI.HLP
+
+Message Continued Indicator
+
+
+
+  If this option is selected, the last character on a screen will
+
+alternately flash every 1/2 second with a "down" arrow if the message
+
+contains more data. If the last character on the screen is errored and
+
+errored data indication = YES, the errored data indicator will not appear
+
+on that character. That is, the message continued indicator will override
+
+the errored data indicator.
+
+
+  In ideographic mode, if this option is selected, pager will alternately
+
+flash the last displayed character on the screen, every 1/2 second, with a
+
+down arrow if the message contains more data.
+
+
+
+.INDEX MSGLOCK.HLP
+
+Message Locking
+
+
+
+  When this option is selected, up to 10 personal messages can be locked
+
+by the user. When a message is locked, it cannot be automatically deleted
+
+by the pager.
+
+
+
+.INDEX MSGPREVIEW.HLP
+
+Message Preview
+
+
+
+  If this option is selected, when the status screen is displayed, the  
+
+first line of the current message shall be displayed on line 4 when the
+
+cursor is on a personal message.  The mail drop source prompt shall be 
+
+displayed on line 4 when the cursor is on a mail drop source (line 2).  All
+
+messages can be previewed by moving the cursor right or left.  This shall 
+
+display the first line (or source prompt) of each message, without having 
+
+to read each and every message.
+
+
+  If the cursor is on the Personal Notebook Message or the Mail Drop 
+
+Notebook Message, the notebook prompt will be displayed.
+
+
+
+.INDEX NOALERTS.HLP
+
+Disable All Alerts
+
+
+
+  When this option is selected, the pager will never alert. All audible
+
+and vibratory alerts are disabled. All alert options and configure alert
+
+mode are dependent upon this option.
+
+
+
+.INDEX NOTEXT.HLP
+
+Notebooks
+
+
+
+  There are two notebooks available in the pager.
+
+One for personal messages (PNB) and one for mail drop messages (MNB).  
+
+If the notebook options are enabled then the user may add personal
+
+messages to the PNB, or add mail drop messages to the MNB by way of the
+
+function menu.  
+
+
+
+.INDEX OORALRT.HLP
+
+Out of Range Alert
+
+
+
+  If this option is selected, the pager will alert when the pager becomes
+
+"out of range".
+
+
+
+.INDEX OTAPSWD.HLP
+
+OTA Programming Password
+
+
+
+  This is another password protection for the pager when Over-The-Air
+
+programming on a personal source.
+
+
+
+.INDEX OTAGROUPPSWD.HLP
+
+OTA Group Programming Password
+
+
+
+  A Group OTA password is used when Over-The-Air programming on a group
+
+or maildrop source.
+
+  This password is active only if at least one of the pager addresses is 
+
+configured to receive "Group" or "Maildrop" messages.  These different
+
+types of messages will be accepted by the pager if the option "Code Type" 
+
+under "Main:Code" is either set to "Group" or to "Mail drop". 
+
+
+
+.INDEX OUTRANGE.HLP
+
+Out Of Range Time
+
+
+
+  If an out of range time is selected, the pager will be considered to
+
+be "out of range" when it does not detect a POCSAG synchronization word
+
+for that time period. At this time the out of range prompt or icon will
+
+be displayed.
+
+
+  This option easily allows the user to tell if they have left the coverage
+
+area.
+
+
+
+.INDEX PARITY.HLP
+
+Parity
+
+
+
+  This is the parity checking method to be used. Valid values are None,
+
+Even and Odd.
+
+
+  NOTE : The Baud Rate, Parity, Data Bits and Stop Bits are used by the
+
+	 serial communication port and printer port if it is configured
+
+	 to use a serial port. The parameters used to communicate to
+
+	 the pager is set to be 4800, None parity, 8 data bits and 1 stop
+
+	 bit. (4800N81)
+
+
+
+.INDEX PMNOTEBK.HLP
+
+.INDEX PRINTENA.HLP
+
+Print Enabled
+
+
+
+  If this option is selected, incoming messages will be automatically
+
+printed.  Manual printing of a single message or all messages is also
+
+available with this option.
+
+
+
+.INDEX SCIBAUD.HLP
+
+Download and Print Baud Rate
+
+
+
+  The default baud rate for Download and Print is 4800.  
+
+
+
+.INDEX PRINT.HLP
+
+PRINT a pager configuration
+
+  This section allows you to print all of your current selection of a
+
+pager's option to a hard-copy paper through a printer either connected
+
+to a serial port or a parallel port. You can select printer port in
+
+the SETUP section.
+
+
+
+.INDEX PRIORITY.HLP
+
+Priority Override
+
+
+
+  This field determines if each pager address has Priority Override or not.
+
+If the address is not active ('X' in the Function field), the corresponding
+
+entry in the Priority field is masked off ('.' in the Priority field).
+
+
+  Personal Message sources can be marked as priority override sources.
+
+Mail Drop message sources can not be marked as priority override sources.
+
+
+  When a source is flagged as a priority source, the arrival of a new
+
+message on that source will override any other activity. Thus, if the
+
+user is performing a function, such as reading a message, setting the
+
+time, etc., the arrival of a priority message will cause the pager to
+
+immediately display the status screen and alert the user that the new
+
+message has arrived. A priority message will alert audibly, even when
+
+the pager is in silent mode. When the "deaf pager" option is selected,
+
+a priority alert will vibrate.
+
+
+
+.INDEX PROGRAM.HLP
+
+PROGRAM a pager
+
+ After you have done all the selection section, you can program the 
+
+pager by coming to this section and press F4 key.
+
+
+
+.INDEX PRTPORT.HLP
+
+Printer Port
+
+
+
+  The printer port is used for a hard copy of the pager configuration.
+
+The available selections are two parallel ports plus the number of
+
+serial port the computer is equipped with. There are flow control and
+
+printer status check if a parallel port is used. On the contrary,
+
+if a serial port is used, make sure the printer is properly connected
+
+and a paper is align before print command is issued.
+
+
+  NOTE: The printer port uses the same baud rate, parity, data bits and
+
+	stop bit as the Communication port if a serial printer port is
+
+	selected. The communication port and the printer port may have
+
+	different parameters. Make sure they are set correctly before
+
+	using it.
+
+
+
+.INDEX READTIMO.HLP
+
+Read Time-Out
+
+
+
+  When you are reading a message, the screen will time out after the
+
+specified Read Time-Out period if no action has occurred within that
+
+time out period.
+
+
+
+.INDEX RETERRAL.HLP
+
+Retain Errored Non-Numeric Message
+
+
+
+  If selected, the pager will keep all non-numeric (alphanumeric, and
+
+ideographic) messages that contain errors. Otherwise those messages will
+
+be discarded.
+
+
+
+.INDEX RETERRMD.HLP
+
+Retain Better Mail Drop Message
+
+
+
+  If selected, a new mail drop message shall replace an existing mail drop
+
+message ONLY if the new message contains no errors or if the new message 
+
+contains the same amount or more good characters than the existing message.
+
+
+
+.INDEX RETERRNU.HLP
+
+Retain Errored Numeric Message
+
+
+
+  This option was once known as NUMERIC BEEP ON BAD DATA. If selected, the
+
+pager will keep numeric messages that contain errors. Otherwise, those
+
+messages will be discarded.
+
+
+
+.INDEX RFPROG.HLP
+
+OTA Programming
+
+
+
+  OTA programming (Over-The-Air) enables the pagers codeplug (EEPROM) to be
+
+reconfigured by sending a page or pages. This can be used to change options
+
+and remotely activate or deactivate a pager.
+
+
+
+.INDEX RFSILENT.HLP
+
+Silent OTA Programming
+
+
+
+  If this option is selected, the pager will go through a silent power-up
+
+after it has been programmed over the air.  Disable All Alerts option shall
+
+be override this option.
+
+
+
+.INDEX RTC.HLP
+
+Real Time Clock
+
+
+
+  If selected, a real time clock is displayed. It displays the time and
+
+date on the bottom of the status screen.  The clock will not be updated
+
+while it is being displayed.  
+
+
+  NOTE:  If the user tries to set an invalid date for clock or any of the
+
+alarms, the pager will automatically set the date to the next valid date.
+
+e.g. If the user attempts to set the time to February 30, the pager will 
+
+change the date to March 1.
+
+
+
+.INDEX SAVECP.HLP
+
+SAVE to a configuration file
+
+
+
+  You may want to save the selection to a disk file either for future usage
+
+or as a record. This section allows you to enter file name and comments
+
+associated with the file.
+
+
+
+.INDEX SCINDPDP.HLP
+
+Source Independent Duplication
+
+
+
+  If this option is not selected, duplication will only be performed on
+
+messages with the same source and function type as the new message. If this
+
+option is selected, duplication will be performed on all messages with the
+
+same function type as the new message.
+
+
+
+.INDEX SECURITY.HLP
+
+Download Security Level
+
+
+
+  Download is the means by which all external interfaces communicate with
+
+the pager. The pager has two levels of security which are None and Maximum.
+
+
+
+.INDEX SEMIOFF.HLP
+
+Receive Messages While Off
+
+
+
+  This feature is used to allow the pager to receive pages while in the OFF
+
+state.  This feature requires the 'Allow Off' and 'Memory Retention' 
+
+features to be enabled.
+
+
+
+.INDEX SEQLOCK.HLP
+
+Sequential Lockout Period
+
+
+
+  For wide area coverage some systems use multiple transmitters located
+
+throughout the coverage area. By transmitting the pager information
+
+sequentially from one station and then the next and so on, the likelihood
+
+that the pager will receive the information is high. In such a system
+
+a pager may receive the same information more than once and alert for
+
+each time. By setting a sequential lockout time, the pager will ignore
+
+duplicate transmissions within that time period and will not alert for
+
+each transmission.
+
+
+  Sequential lockout is only available when duplication is enabled and does
+
+not apply to mail drop messages. Sequential lockout is enabled when a
+
+sequential lockout time is programmed in the pager. When a message arrives,
+
+a sequential lockout timer begins and the message is flagged as being
+
+"sequentially locked out". If a new message arrives and it is a duplicate
+
+message, one of the messages will be tossed out and the message will not be
+
+flagged as a duplicate. However, the message will receive a new time stamp.
+
+
+
+.INDEX SERNUM.HLP
+
+SERIAL number
+
+
+
+  The Serial Number of the pager is an identifying number which should
+
+never change throughout the life of the pager. This number is normally
+
+programmed into the pager at the factory. This number should also be
+
+located on one of the labels attached to the pager. If this label is not
+
+available, refer to the order form for the appropriate serial number.
+
+
+
+.INDEX SERVICE.HLP
+
+SERVICE
+
+
+
+  The Service Screen allows user to test various functions of the pager.
+
+
+    F3 - Adjust Hardware Tuned Values :  There are certain values are tuned 
+
+	    per pager and they are very dependent on the specific hardware
+
+	    being programmed.  This screen allows user to adjust these values
+
+	    whenever the pager decoder board is needed to be repaired or
+
+	    replaced. 
+
+
+    F5 - Enter Test mode :  This mode will test the basic functionality of
+
+	    the pager.  The test mode shall include a CG-ROM, uP checksum
+
+	    test, RAM read/write pattern test, display test pattern, alert
+
+	    test, vibrator test, etc.
+
+
+    F6 - Enter quick page mode :  Quick page is used by the test station to 
+
+	    check the pager's RF sensitivity.  The pager shall count the 
+
+	    number of received pages and transmit this number to the test
+
+	    station using the transducer.  The test station keeps track of 
+
+	    how many pages it sent.  It can therefore determine the pager's
+
+	    sensitivity.
+
+
+    F7 - Enter Keep Only Good Messages mode :  This mode will temporary 
+
+	    disable retain errored messages.
+
+
+    F9 - Enter Set Chirp mode :   This mode will put pager in chirp mode.
+
+
+
+.INDEX SETUP.HLP
+
+SETUP COMPUTER CONFIGURATION
+
+
+
+  The Setup Computer Configuration Screen allows you to change the computer
+
+parameters. This includes the archive directory, the communication port, the
+
+printer port and the color of the display. The color setup is not available
+
+if you have a monochrome monitor.
+
+
+
+.INDEX SHOMEMFUL.HLP
+
+Show Memory Full Prompt
+
+
+
+   Set to show the PROMPT and the ICON. Clear to show only the ICON.
+
+The ICON will always be shown when a memory-full condition exists, although 
+
+it could be over-written by other events such as message preview or function
+
+menu activation.
+
+
+
+.INDEX STOPDECODE.HLP
+
+Stop Decode on Miss Sync.
+
+
+
+   This option is used to reduce pager address falsing on noise by disabling
+
+the detection of any new page from the time an invalid sync word is detected
+
+until the next valid sync has been detected.
+
+
+
+.INDEX STOPBITS.HLP
+
+Stop Bits
+
+
+
+  This is the number of stop bits to use. Valid values are 1 and 2.
+
+
+
+.INDEX STD4REPEAT.HLP
+
+Function 4 Repeat Period
+
+  
+
+  The individual message (source 4,8,12,16) alert may be varied using
+
+Function 4 Pulse Duration and Function 4 Period. The available selections 
+
+for Function 4 repeat time are 1 second (true pocsag when 1/16th sec pulse 
+
+duration) and 2 seconds.
+
+
+
+.INDEX STD4PULSE.HLP  
+
+Function 4 Tone Pulse Duration
+
+  
+
+  The individual message (source 4,8,12,16) alert may be varied using
+
+Function 4 Pulse Duration and Function 4 Period. The available selection 
+
+for Function 4 Tone Pulse Duration are 1/8th, and 1/16th. 
+
+
+
+.INDEX SWPASSWD.HLP
+
+Software Password
+
+
+
+  To protect your Product Family 169 Alphanumeric Programming Software
+
+from unauthorized use, you may put password protection on the software.
+
+You can select to enter a password protection on running this programming
+
+software or remove the password protection just as you choose the
+
+protection mode during the installation. If you leave this area
+
+blank, you will not need to enter a password to execute this program.
+
+Be sure to save the new configuration before exiting.
+
+
+
+.INDEX SYN.HLP
+
+Receiver Type
+
+
+
+  There are two types of receivers, Crystal and Synthesized.
+
+You must select the type of receiver with which your pager is equipped
+
+with. If the pager contains a synthesized receiver, the synthesizer option
+
+must be YES and the correct frequency must be programmed in the pager.
+
+
+
+.INDEX TIMESTMP.HLP
+
+Show Time Stamp
+
+
+
+  Each message shall receive a time stamp from the pager when it has been
+
+completely received.
+
+
+  When this option is selected, the pager will display a message's
+
+time stamp when it is being read. The time stamp will be shown at the
+
+very end of the message AFTER the source prompt, if show source is enabled.
+
+
+
+.INDEX TNCTMSGI.HLP
+
+Truncated Message Indicator
+
+
+
+  If this option is selected, when an errored truncated message or a normal
+
+truncated message is displayed, a truncated message indicator shall be shown
+
+over the last character in the message.
+
+
+
+.INDEX VIBRATOR.HLP
+
+Vibrator
+
+
+
+  When the pager contains a vibrator and is in silent mode, all alerts 
+
+will be vibratory except for a priority pager alert.  A vibration will 
+
+last for the alert duration time.  If the alert to be performed is a
+
+chirp, the vibrator will run for the shortest alert duration.
+
+
+
+.INDEX EXITTEST.HLP
+
+Exit test mode
+
+
+
+  Exit extended test mode.  Pager will RESET with clear memory to avoid
+
+pager malfunction.
+
+
+
+.INDEX CGROMCKSUM.HLP
+
+CG-ROM Checksum
+
+
+
+  Calculate CG-ROM checksum.  Pager will send out the last byte of total 
+
+CG-ROM checksum in HEX format.  If there is no CG-ROM, it will 
+
+display 'NO CGROM'.
+
+
+
+.INDEX UPCKSUM.HLP
+
+uP Checksum
+
+ 
+
+  Calculate uP checksum.  Pager will send out the last byte of total uP
+
+checksum in HEX format.  
+
+
+
+.INDEX ANNUNTEST.HLP
+
+Annunciator Test
+
+
+
+  Test all four annunciators: Auto-On, Speaker, Alarm, On.
+
+
+
+.INDEX RAMTEST.HLP
+
+RAM Test Pattern
+
+
+
+  Test external RAM.  Pager will exercise all address lines and returns 
+
+'P' if passed, 'F' if failed.
+
+
+
+.INDEX DISPPATTERN.HLP
+
+Display Test Pattern
+
+
+
+  Allow user to enter the display pattern to test the LCD display.  
+
+
+  A small window interface will be displayed to allow user entering
+
+number of test patterns. The size of test pattern is recommended to be
+
+a factor of 120 and maximum is 120.  ie.  1, 2, 3, 4, 5, 6, 7, 8, 10, 
+
+12, 15, 20, 24, 30, 40, 60, 120.  7 and 17 are acceptable.
+
+
+  To exit of display test pattern, enter 00.
+
+
+
+.INDEX KEYTEST.HLP
+
+Key test  (Function, Read, Left, Right, Down, Up)
+
+
+
+  To perform this test, send the key test command while key(s) is held 
+
+down.  Pager will send out the key press value. 
+
+
+
+.INDEX VIBOFF.HLP
+
+Vibrator Off
+
+
+
+  Turn Off vibrator.
+
+
+
+.INDEX VIBON.HLP
+
+Vibrator On
+
+
+
+  Turn On vibrator.
+
+
+
+.INDEX ALERTOFF.HLP
+
+Alert Off
+
+
+
+  Turn Off Alert.
+
+
+
+.INDEX ALERTON.HLP
+
+Alert On
+
+
+
+  The standard alert at default value 3.2 kHz will be turned on.
+
+
+
+.INDEX LIGHTOFF.HLP
+
+Back Light Off
+
+
+
+  Turn off back light.
+
+
+
+.INDEX LIGHTON.HLP
+
+Back Light On
+
+
+
+  Turn on back light.
+
+
+
+.INDEX DISPLAYON.HLP
+
+Activate Display
+
+
+
+  Turn on display.
+
+
+
+.INDEX DISPLAYOFF.HLP
+
+Deactivate Display
+
+
+
+  Turn off display.
+
+
+
+.INDEX RXCVLINES.HLP
+
+Receiver Lines Test (ACLK, A0, A1, A2)
+
+
+
+  Allow user to set HI or LOW on selected receiver line(s).  
+
+
+
+.INDEX CGROMID.HLP
+
+CG-ROM ID
+
+
+
+  Pager will send out two bytes of CG-ROM id in ASCII format.  If there is no
+
+CG-ROM, it will display 0000.
+
+
+
+.INDEX ENABLECGROM.HLP
+
+Enable CG-ROM
+
+
+
+  The purpose of enable CG-ROM test is to measure pager current when 
+
+CG-ROM is enabled.
+
+
+
+.INDEX ENABLERAM.HLP
+
+Enable RAM
+
+ 
+
+  The purpose of enable RAM test is to measure pager current when RAM 
+
+line is enabled.
+
+
+
+.INDEX CGROMRAMOFF.HLP
+
+Disable CG-ROM and RAM
+
+
+
+  Disable CG-ROM and RAM lines.
+
+
+
+.INDEX STANDBY.HLP
+
+Standby Mode
+
+
+
+  Pager will be in standby mode which will disables RAM, CG-ROM, 
+
+Interrupts, L/S coast, uP slow Wait.  After 4-5 seconds, pager will
+
+reset when the autocoast supply fails to supply the current required 
+
+to keep the B++.
+
+
+
+.INDEX CLOCKSECOND.HLP
+
+Real Time Clock Second Adjustment
+
+ 
+
+  Select a value to be added or subtracted to the time every day at 24:00
+
+(midnight) in seconds. This value is used to adjust for inaccuracies in the
+
+hardware crystal which controls the time in the pager.
+
+
+  The crystals are specified to be accurate within +/- 0.0025%.  This
+
+translates to an inaccuracy of up to 2.16 sec per day.  Therefore, with a 
+
+good crystal, only values of -2 to +2 seconds a day should be selected.
+
+
+Valid selections : -8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8
+
+			    0 is default.
+
+
+
+.INDEX LCDCONTRAST.HLP
+
+LCD Contrast Adjustment
+
+
+
+  Values selected between 0 and 15 will cause a MANUAL contrast
+
+override, where 0 is the LIGHTEST and 15 is the DARKEST contrast.
+
+If these values are selected, the auto contrast set circuit is 
+
+not used.
+
+  Select a value from 16 - 255.  The display contrast shall be automatically 
+
+adjusted by pager.
+
+
+
+		16     - LIGHTEST AUTO contrast value
+
+		255    - DARKEST AUTO contrast value
+
+		009    - Default
+
+
+
+.INDEX MEMORYSIZE.HLP
+
+Memory Partitions Size
+
+
+
+  This value indicates the number of memory blocks dedicated to personal and
+
+maildrop messages for both an 8K and 32 pager.
+
+  THIS VALUE IS ONE-TIME PROGRAMMABLE ONLY.  Once this value is programmed
+
+into the pager it cannot be changed it neither through Hard-Contact or OTA. 
+
+
+Valid Selections: (Personal Characters/Maildrop Characters):
+
+Default:  10K/22K for 32K pager;  
+
+	  5K/2.5K for 8K pager.
+
+
+
+32K(Personal/Maildrop)             8K(Personal/Maildrop)
+
+=====================              =====================
+
+32K/0K  (No Maildrop)               7.5K/0K  (No Maildrop)
+
+27K/5K                              5K/2.5K  
+
+21.5K/10.5K                         3K/4.5K
+
+16K/16K                             4K/3.5K  
+
+10K/22K                             2K/5.5K  
+
+5K/27K                              1K/6.5K
+
+3K/29K                              0K/7.5K
+
+0K/32K  (No Personal)
+
+
+   (No personal) indicates this value is only allowed if there are no
+
+       personal codes in the pager.
+
+   (No maildrop) indicates this value is only allowed if there are no
+
+       maildrop codes in the pager.
+
+
+
+.INDEX CHECKBATT.HLP
+
+Periodic Low Battery Check
+
+
+
+   The low battery periodic check period is based on this selected value.
+
+
+
+.INDEX ALARMAUDIBLE.HLP
+
+Alarm Always Audible
+
+
+
+   Daily alarm and message alarms are always audible alert even if pager
+
+in vibrator mode.
+
+
+
