@@ -2,6 +2,8 @@
 
 DOSBox container setup for Motorola Advisor II Programming. This allows programming on modern systems (including Linux systems, which are the only system that this has been tested on).
 
+![Running in DOSBox](dosbox-advisor-ii.png)
+
 ## PREREQUISITES
 
 You're going to need a pager programming dock, or, if you're like me, a homemade rig to do the same:
